@@ -26,7 +26,7 @@ jobs:
   test-in-container:
     runs-on: ubuntu-latest
     container:
-      image: zpoettker/quiz8:v1
+      image: orky/pyt:v0.1
       # all dependencies (pytest) are already in this docker image hosted as public image in YOUR Docker Hub account
 
 
